@@ -5,7 +5,7 @@ function Header() {
         <>
             <ul>
                 <li><Link to="/">Person List</Link></li>
-                <li> <Link to="/list">Favorite Person</Link></li>
+                <li> <Link to="/list">Favourite Person</Link></li>
             </ul>
         </>
     )
