@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", serif;;
+}
+
+ul {
+  background-color: #d9367d;
+  padding: 30px 20px;
+  display: flex;
+  gap: 2%;
+  margin-bottom: 40px;
+  
+}
+ul a{
+  color: white;
+}
+
+ul a:hover{
+  color: rgb(224, 224, 224);
+}
+
+ul li {
+  color: white;
+  font-size: 20px;
+  list-style-type: none;
+  cursor: pointer;
+}
+ul li:hover{
+text-decoration: underline;
+}
+
+.add
+{
+  background-color: green;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+}
+
+tr{
+  margin-top: 20px;
+}
+tr td{
+  padding-left: 30px;
+}
+
+.add {
+  background-color: #0b0b0b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.added {
+  background-color: gray;
+  cursor: not-allowed;
+  padding: 10px 20px;
+  border: none;
+}
+
+.del
+{
+  background-color: #b1351f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+button
+{
+  font-size: 16px;
+}
